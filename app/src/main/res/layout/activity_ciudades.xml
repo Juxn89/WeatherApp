@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Ciudades">
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/bienvenida"
+        android:textColor="@color/color_cuidad" />
+
+    <Button
+        android:id="@+id/bNicaragua"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_nicaragua"
+        android:textColor="@color/color_cuidad" />
+
+    <Button
+        android:id="@+id/bMadrid"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_madrid" />
+
+    <Button
+        android:id="@+id/bShanghai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clima de la ciudad de Shanghai"/>
+</LinearLayout>

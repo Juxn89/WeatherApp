@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Clima</string>
+    <string name="texto_grados">0°</string>
+    <string name="texto_ciudad">ciudad</string>
+    <string name="texto_estadus">estado</string>
+
+    <string name="bienvenida">Bienvenido a mi App del clima, para ver el clima de una ciudad selecciona la opción de abajo</string>
+    <string name="texto_boton_nicaragua">Clima de Nicaragua</string>
+    <string name="texto_boton_madrid">Clima de la ciudad de Madrid</string>
+</resources>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvGrados"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/texto_grados"
+        android:textAlignment="center"
+        android:textColor="@color/color_grado"
+        android:textSize="72sp" />
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGrados"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/texto_ciudad"
+        android:textAlignment="center"
+        android:textColor="@color/color_cuidad"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCiudad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/texto_estadus"
+        android:textAlignment="center"
+        android:textColor="@color/color_estatus"
+        android:textSize="24sp" />
+
+</RelativeLayout>
